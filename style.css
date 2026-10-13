@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+
+/* Navigation Bar */
+nav {
+    background-color: #243b55;
+    color: white;
+    padding: 15px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #8fd3f4;
+}
+
+
+/* Sections */
+section {
+    padding: 40px;
+    margin: 20px;
+}
+
+section h2 {
+    color: #243b55;
+    text-align: center;
+}
+
+
+/* Profile */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: white;
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.profile h1 {
+    color: #243b55;
+}
+
+
+/* Education Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #243b55;
+    color: white;
+}
+
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills div {
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid #243b55;
+}
+
+.skills div:hover {
+    background-color: #243b55;
+    color: white;
+}
+
+
+/* Project Cards */
+.project-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #bbb;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px #999;
+}
+
+.project-card h3 {
+    color: #243b55;
+}
+
+
+/* Certifications and Hobbies */
+li {
+    margin: 10px;
+}
+
+
+/* Contact Form */
+form {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #243b55;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #141e30;
+}
+
+
+/* Social Media */
+.social {
+    text-align: center;
+}
+
+.social a {
+    color: #243b55;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+footer {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
